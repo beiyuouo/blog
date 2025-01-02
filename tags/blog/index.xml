@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on 北屿小智障</title>
+    <link>https://blog.bj-yan.top/tags/blog/</link>
+    <description>Recent content in Blog on 北屿小智障</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2024 13:30:36 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>免拔卡换区解锁 TikTok</title>
+      <link>https://blog.bj-yan.top/p/blog-tiktok-unlock/</link>
+      <pubDate>Mon, 18 Mar 2024 13:30:36 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-tiktok-unlock/</guid>
+      <description>Blog TikTok Installation</description>
+    </item>
+    
+    <item>
+      <title>分布式机器学习中的效率分析</title>
+      <link>https://blog.bj-yan.top/p/blog-efficiency-analysis-of-distributed-machine-learning/</link>
+      <pubDate>Wed, 09 Aug 2023 00:54:19 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-efficiency-analysis-of-distributed-machine-learning/</guid>
+      <description>Blog Efficiency Analysis of Distributed Machine Learning</description>
+    </item>
+    
+    <item>
+      <title>如何获得微信红包的 Top K</title>
+      <link>https://blog.bj-yan.top/p/blog-the-top-k-of-wechat-red-envelopes/</link>
+      <pubDate>Sat, 08 Jul 2023 12:37:21 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-the-top-k-of-wechat-red-envelopes/</guid>
+      <description>Blog the Top K of Wechat Red Envelopes；如何获得微信红包的 Top K</description>
+    </item>
+    
+    <item>
+      <title>使用 Zotero 和 Notion 管理文献和笔记</title>
+      <link>https://blog.bj-yan.top/p/blog-using-zotero-and-notion-manage-your-papers-and-notes/</link>
+      <pubDate>Wed, 28 Jun 2023 11:24:03 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-using-zotero-and-notion-manage-your-papers-and-notes/</guid>
+      <description>Blog Using Zotero and Notion Manage Your Papers and Notes 本文介绍了使用 Zotero 和 Notion 管理文献和笔记的方法。</description>
+    </item>
+    
+    <item>
+      <title>使用 MPI 加速联邦学习的模拟</title>
+      <link>https://blog.bj-yan.top/p/blog-accelerating-federated-learning-simulation-using-mpi/</link>
+      <pubDate>Tue, 21 Mar 2023 12:41:13 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-accelerating-federated-learning-simulation-using-mpi/</guid>
+      <description>使用 MPI 加速联邦学习的模拟，分享最近随便写的一个基于 mpi4py 的简单联邦学习模拟器，可以拿来用于跑一些简单的实验，应该很容易扩展，比较适合多卡环境的实验。</description>
+    </item>
+    
+    <item>
+      <title>Advantage Usage for GPT 3.5 Turbo API</title>
+      <link>https://blog.bj-yan.top/p/blog-advantage-usage-for-gpt-3-5-turbo/</link>
+      <pubDate>Thu, 02 Mar 2023 19:19:58 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-advantage-usage-for-gpt-3-5-turbo/</guid>
+      <description>Advantage Usage for OpenAI GPT 3.5 Turbo API, 文章主要介绍了 GPT 3.5 Turbo API 的进阶玩法，包括全部参数的解读和代码样例，例如：stream、temperature、top_p、presence_penalty等等，以及我的一些关于 AIGC 和 ChatGPT 的理解。</description>
+    </item>
+    
+    <item>
+      <title>GitHub 没啥用小技巧</title>
+      <link>https://blog.bj-yan.top/p/blog-github-useless-tips/</link>
+      <pubDate>Thu, 02 Mar 2023 17:05:24 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-github-useless-tips/</guid>
+      <description>GitHub Useless Tips, GitHub 没啥用小技巧</description>
+    </item>
+    
+    <item>
+      <title>Public Release of 🍕 Easy Configuration(ezkfg) v0.1.1</title>
+      <link>https://blog.bj-yan.top/p/blog-public-release-of-ezkfg-v011/</link>
+      <pubDate>Wed, 01 Mar 2023 22:05:34 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-public-release-of-ezkfg-v011/</guid>
+      <description>🍕 Easy Configuration(ezkfg) Project</description>
+    </item>
+    
+    <item>
+      <title>AI 会取代艺术家的工作吗？</title>
+      <link>https://blog.bj-yan.top/p/blog-will-ai-replace-the-artists/</link>
+      <pubDate>Mon, 12 Sep 2022 12:01:09 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-will-ai-replace-the-artists/</guid>
+      <description>Will AI Replace the Artists? AI 会取代艺术家的工作吗？本文分析了 Diffusion model 的一些简史、原理、性能比较，以及它对艺术家的影响。</description>
+    </item>
+    
+    <item>
+      <title>扩散模型试玩</title>
+      <link>https://blog.bj-yan.top/p/blog-diffusion-model-trial/</link>
+      <pubDate>Sun, 11 Sep 2022 23:03:04 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-diffusion-model-trial/</guid>
+      <description>扩散模型试玩，本文主要介绍了扩散模型的简史，以及笔者对各种模型的试玩。</description>
+    </item>
+    
+    <item>
+      <title>浅谈国内开源社区环境</title>
+      <link>https://blog.bj-yan.top/p/blog-talk-about-the-open-source-environment-in-china/</link>
+      <pubDate>Sun, 11 Sep 2022 13:44:15 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-talk-about-the-open-source-environment-in-china/</guid>
+      <description>Blog Talk About the Open Source Environment in China</description>
+    </item>
+    
+    <item>
+      <title>UCAS 课程表日程解决方案</title>
+      <link>https://blog.bj-yan.top/p/blog-ucas-course-schedule/</link>
+      <pubDate>Fri, 26 Aug 2022 22:49:57 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-ucas-course-schedule/</guid>
+      <description>Blog Ucas Course Schedule | UCAS 课程表日程解决方案</description>
+    </item>
+    
+    <item>
+      <title>UCAS 利用 IPv6 绕过校园网流量计费</title>
+      <link>https://blog.bj-yan.top/p/blog-ucas-ipv6-bypass/</link>
+      <pubDate>Sun, 21 Aug 2022 09:44:53 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-ucas-ipv6-bypass/</guid>
+      <description>UCAS 利用 IPv6 绕过校园网流量计费</description>
+    </item>
+    
+    <item>
+      <title>Test Time Augmentation and Model Attack &amp; Defense</title>
+      <link>https://blog.bj-yan.top/p/blog-hcaptcha-test-time-augmentation-and-model-attack-defense/</link>
+      <pubDate>Fri, 10 Jun 2022 14:28:03 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hcaptcha-test-time-augmentation-and-model-attack-defense/</guid>
+      <description>测试时增强和模型攻击与防御</description>
+    </item>
+    
+    <item>
+      <title>Project: 🍕 Easy Configuration(ezkfg)</title>
+      <link>https://blog.bj-yan.top/p/blog-project-ezkfg/</link>
+      <pubDate>Tue, 17 May 2022 00:48:18 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-project-ezkfg/</guid>
+      <description>🍕 Easy Configuration(ezkfg) Project</description>
+    </item>
+    
+    <item>
+      <title>Some Thoughts on Schedule Management Software</title>
+      <link>https://blog.bj-yan.top/p/blog-some-thoughts-on-schedule-management-software/</link>
+      <pubDate>Thu, 12 May 2022 01:01:20 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-some-thoughts-on-schedule-management-software/</guid>
+      <description>关于日程管理软件的一些思考, Some Thoughts on Schedule Management Software</description>
+    </item>
+    
+    <item>
+      <title>Taichi Voxel Challenge 2022 - PVZ</title>
+      <link>https://blog.bj-yan.top/p/blog-taichi-voxel-challenge-2022-pvz/</link>
+      <pubDate>Wed, 11 May 2022 16:41:22 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-taichi-voxel-challenge-2022-pvz/</guid>
+      <description>Taichi Voxel Challenge 2022 的 PVZ 作品思路和代码</description>
+    </item>
+    
+    <item>
+      <title>&#34;Please click each image containing a seaplane&#34;</title>
+      <link>https://blog.bj-yan.top/p/blog-hcaptcha-seaplane/</link>
+      <pubDate>Sun, 01 May 2022 23:35:46 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hcaptcha-seaplane/</guid>
+      <description>hCAPTCHA Please click each image containing a seaplane 解决方案，以及后续新任务的解决方法</description>
+    </item>
+    
+    <item>
+      <title>Taichi Voxel Challenge 2022</title>
+      <link>https://blog.bj-yan.top/p/blog-taichi-voxel-challenge-2022/</link>
+      <pubDate>Sun, 01 May 2022 15:42:26 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-taichi-voxel-challenge-2022/</guid>
+      <description>参加 Taichi Voxel Challenge 2022 的经历，以及一些经验总结</description>
+    </item>
+    
+    <item>
+      <title>Where is the Next Generation of CAPTCHA?</title>
+      <link>https://blog.bj-yan.top/p/blog-where-is-the-next-generation-of-captcha/</link>
+      <pubDate>Sun, 01 May 2022 01:53:59 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-where-is-the-next-generation-of-captcha/</guid>
+      <description>Where is the Next Generation of Captcha？CAPTCHA 的历史？人机对抗？下一代验证码会是什么样子？</description>
+    </item>
+    
+    <item>
+      <title>&#34;Please select all the elephants drawn with lеaves&#34;</title>
+      <link>https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/</link>
+      <pubDate>Sun, 01 May 2022 01:53:15 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/</guid>
+      <description>关于 Please select all the elephants drawn with lеaves 的 hCaptcha 解决方案</description>
+    </item>
+    
+    <item>
+      <title>baseIine 的无奈 - Codecraft 2022 参赛心路</title>
+      <link>https://blog.bj-yan.top/p/blog-codecraft-2022/</link>
+      <pubDate>Tue, 29 Mar 2022 19:01:47 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-codecraft-2022/</guid>
+      <description>华为 Huawei Codecraft 2022 参赛心路</description>
+    </item>
+    
+    <item>
+      <title>&#34;Please click each image containing an airplane in the sky flying left&#34;</title>
+      <link>https://blog.bj-yan.top/p/blog-hcaptcha-sky-left-airplane/</link>
+      <pubDate>Thu, 03 Mar 2022 23:34:48 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hcaptcha-sky-left-airplane/</guid>
+      <description>关于 Please click each image containing an airplane in the sky flying left 的 hCaptcha 解决方案</description>
+    </item>
+    
+    <item>
+      <title>&#34;Please click each image containing a vertical river&#34;</title>
+      <link>https://blog.bj-yan.top/p/blog-hcaptcha-vertical-river/</link>
+      <pubDate>Wed, 02 Mar 2022 10:32:15 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hcaptcha-vertical-river/</guid>
+      <description>关于 Please click each image containing a vertical river 的 hCaptcha 解决方案</description>
+    </item>
+    
+    <item>
+      <title>GitHub Actions 进行简历编译与分发的最佳实践</title>
+      <link>https://blog.bj-yan.top/p/blog-github-actions-cv/</link>
+      <pubDate>Sat, 19 Feb 2022 18:12:54 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-github-actions-cv/</guid>
+      <description>GitHub Actions 进行简历编译与分发的最佳实践</description>
+    </item>
+    
+    <item>
+      <title>NFT 常用网站</title>
+      <link>https://blog.bj-yan.top/p/blog-nft-common-site/</link>
+      <pubDate>Tue, 15 Feb 2022 09:58:14 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-nft-common-site/</guid>
+      <description>NFT 常用网站</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning for Pixel Art</title>
+      <link>https://blog.bj-yan.top/p/blog-deep-learning-for-pixel-art/</link>
+      <pubDate>Tue, 15 Feb 2022 01:19:35 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-deep-learning-for-pixel-art/</guid>
+      <description>Deep Learning for Pixel Art，用深度学习生成像素画</description>
+    </item>
+    
+    <item>
+      <title>海南大学课程攻略共享计划</title>
+      <link>https://blog.bj-yan.top/p/blog-hainanu-course-comments/</link>
+      <pubDate>Thu, 28 Oct 2021 00:38:18 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hainanu-course-comments/</guid>
+      <description>海南大学课程攻略共享计划项目说明，本文介绍了海南大学课程攻略共享计划项目的开发始末</description>
+    </item>
+    
+    <item>
+      <title>格物致知 - 线性代数</title>
+      <link>https://blog.bj-yan.top/p/blog-linear-algerbra-ng/</link>
+      <pubDate>Thu, 14 Oct 2021 21:53:42 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-linear-algerbra-ng/</guid>
+      <description>格物致知 - 线性代数，看过 3b1b 视频后关于线性代数本质的思考</description>
+    </item>
+    
+    <item>
+      <title>2021 数学建模</title>
+      <link>https://blog.bj-yan.top/p/blog-mum-2021/</link>
+      <pubDate>Thu, 09 Sep 2021 23:41:44 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-mum-2021/</guid>
+      <description>2021 年高教杯数学建模大赛思路</description>
+    </item>
+    
+  </channel>
+</rss>
