@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Note on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/categories/note/</link>
+    <description>Recent content in Note on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2025 16:00:33 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>善恶美丑与虚无</title>
+      <link>https://blog.bj-yan.top/p/note-jin-ge-si/</link>
+      <pubDate>Tue, 04 Feb 2025 16:00:33 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/note-jin-ge-si/</guid>
+      <description>善恶美丑与虚无——《金阁寺》</description>
+    </item>
+    
+    <item>
+      <title>亲密关系的核心是友谊</title>
+      <link>https://blog.bj-yan.top/p/note-qin-mi-guan-xi-de-he-xin-shi-you-yi/</link>
+      <pubDate>Fri, 27 Dec 2024 01:38:59 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/note-qin-mi-guan-xi-de-he-xin-shi-you-yi/</guid>
+      <description>亲密关系的核心是友谊</description>
+    </item>
+    
+  </channel>
+</rss>

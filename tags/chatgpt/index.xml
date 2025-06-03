@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chatgpt on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/chatgpt/</link>
+    <description>Recent content in Chatgpt on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2023 19:19:58 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advantage Usage for GPT 3.5 Turbo API</title>
+      <link>https://blog.bj-yan.top/p/blog-advantage-usage-for-gpt-3-5-turbo/</link>
+      <pubDate>Thu, 02 Mar 2023 19:19:58 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-advantage-usage-for-gpt-3-5-turbo/</guid>
+      <description>Advantage Usage for OpenAI GPT 3.5 Turbo API, 文章主要介绍了 GPT 3.5 Turbo API 的进阶玩法，包括全部参数的解读和代码样例，例如：stream、temperature、top_p、presence_penalty等等，以及我的一些关于 AIGC 和 ChatGPT 的理解。</description>
+    </item>
+    
+  </channel>
+</rss>

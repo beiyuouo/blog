@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zotero on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/zotero/</link>
+    <description>Recent content in Zotero on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jun 2023 11:24:03 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/zotero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Zotero 和 Notion 管理文献和笔记</title>
+      <link>https://blog.bj-yan.top/p/blog-using-zotero-and-notion-manage-your-papers-and-notes/</link>
+      <pubDate>Wed, 28 Jun 2023 11:24:03 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-using-zotero-and-notion-manage-your-papers-and-notes/</guid>
+      <description>Blog Using Zotero and Notion Manage Your Papers and Notes 本文介绍了使用 Zotero 和 Notion 管理文献和笔记的方法。</description>
+    </item>
+    
+  </channel>
+</rss>

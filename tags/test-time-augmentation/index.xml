@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test-Time-Augmentation on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/test-time-augmentation/</link>
+    <description>Recent content in Test-Time-Augmentation on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2022 14:28:03 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/test-time-augmentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Time Augmentation and Model Attack &amp; Defense</title>
+      <link>https://blog.bj-yan.top/p/blog-hcaptcha-test-time-augmentation-and-model-attack-defense/</link>
+      <pubDate>Fri, 10 Jun 2022 14:28:03 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-hcaptcha-test-time-augmentation-and-model-attack-defense/</guid>
+      <description>测试时增强和模型攻击与防御</description>
+    </item>
+    
+  </channel>
+</rss>

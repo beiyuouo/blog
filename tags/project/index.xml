@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/project/</link>
+    <description>Recent content in Project on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 22:05:34 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Public Release of 🍕 Easy Configuration(ezkfg) v0.1.1</title>
+      <link>https://blog.bj-yan.top/p/blog-public-release-of-ezkfg-v011/</link>
+      <pubDate>Wed, 01 Mar 2023 22:05:34 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-public-release-of-ezkfg-v011/</guid>
+      <description>🍕 Easy Configuration(ezkfg) Project</description>
+    </item>
+    
+    <item>
+      <title>Project: 🍕 Easy Configuration(ezkfg)</title>
+      <link>https://blog.bj-yan.top/p/blog-project-ezkfg/</link>
+      <pubDate>Tue, 17 May 2022 00:48:18 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-project-ezkfg/</guid>
+      <description>🍕 Easy Configuration(ezkfg) Project</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,628 @@
+<!doctype html><html lang=zh-cn dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>"Please select all the elephants drawn with lеaves" | 小冰爱吃盐</title>
+<meta name=keywords content="hCaptcha,,hCaptcha,Solver"><meta name=description content="关于 Please select all the elephants drawn with lеaves 的 hCaptcha 解决方案"><meta name=author content="北屿"><link rel=canonical href=https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/><meta name=google-site-verification content="G-PRK0FMMDH1"><meta name=yandex-verification content="XYZabc"><meta name=msvalidate.01 content="XYZabc"><link crossorigin=anonymous href=/assets/css/stylesheet.min.8d0a354998e71ab0f222ae59ef33b3acb610ae9b11671c8d8c5ab4a9bfbe09b7.css integrity="sha256-jQo1SZjnGrDyIq5Z7zOzrLYQrpsRZxyNjFq0qb++Cbc=" rel="preload stylesheet" as=style><link rel=preload href=/favicon.jpg as=image><link rel=icon href=https://blog.bj-yan.top/favicon.jpg><link rel=icon type=image/png sizes=16x16 href=https://blog.bj-yan.top/favicon.jpg><link rel=icon type=image/png sizes=32x32 href=https://blog.bj-yan.top/favicon.jpg><link rel=apple-touch-icon href=https://blog.bj-yan.top/favicon.jpg><link rel=mask-icon href=https://blog.bj-yan.top/favicon.jpg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.136.5"><link rel=alternate hreflang=zh-cn href=https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><script>var _hmt=_hmt||[];(function(){var e,t=document.createElement("script");t.src="https://hm.baidu.com/hm.js?d396c00ca4fe6547a19249d34cb91254",e=document.getElementsByTagName("script")[0],e.parentNode.insertBefore(t,e)})()</script><script type=text/javascript async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">MathJax.Hub.Config({tex2jax:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["[[","]]"]],processEscapes:!0,processEnvironments:!0,skipTags:["script","noscript","style","textarea","pre"],TeX:{equationNumbers:{autoNumber:"AMS"},extensions:["AMSmath.js","AMSsymbols.js"]}}}),MathJax.Hub.Queue(function(){var e,t=MathJax.Hub.getAllJax();for(e=0;e<t.length;e+=1)t[e].SourceElement().parentNode.className+=" has-jax"})</script><style>code.has-jax{font:inherit;font-size:100%;background:inherit;border:inherit;color:#515151}</style><link href=//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet><script async src="https://www.googletagmanager.com/gtag/js?id=G-DC28LRQ4E5"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-DC28LRQ4E5")}</script><meta property="og:title" content='"Please select all the elephants drawn with lеaves"'><meta property="og:description" content="关于 Please select all the elephants drawn with lеaves 的 hCaptcha 解决方案"><meta property="og:type" content="article"><meta property="og:url" content="https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/"><meta property="og:image" content="https://blog.bj-yan.top/favicon.jpg"><meta property="article:section" content="post"><meta property="article:published_time" content="2022-05-01T01:53:15+08:00"><meta property="article:modified_time" content="2023-03-21T12:52:17+08:00"><meta property="og:site_name" content="小冰爱吃盐"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://blog.bj-yan.top/favicon.jpg"><meta name=twitter:title content='"Please select all the elephants drawn with lеaves"'><meta name=twitter:description content="关于 Please select all the elephants drawn with lеaves 的 hCaptcha 解决方案"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://blog.bj-yan.top/post/"},{"@type":"ListItem","position":2,"name":"\"Please select all the elephants drawn with lеaves\"","item":"https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"\"Please select all the elephants drawn with lеaves\"","name":"\u0022Please select all the elephants drawn with lеaves\u0022","description":"关于 Please select all the elephants drawn with lеaves 的 hCaptcha 解决方案","keywords":["hCaptcha,","hCaptcha","Solver"],"articleBody":"好像这个 prompt 和 水上飞机的 prompt 最近出现的频率比较高，应该是放到生产环境中了。\n那么自然要来搞他，数据集可以在这里找到\n先来分析一下，一共就三种类型，一种是树叶组成的，一种是花瓣组成的，还有一种不知道是什么玄学组成的黑不拉几的东西. 再来看组成的内容，除了象就是马，就是一个二分类呗。\n其实除了 \"Please select all the elephants drawn with lеaves\" 这个 prompt 之外，还有一个类似的 \"Please select all the horses drawn with flowers\"，但是这个 prompt 几乎没有见到过，不知道提这个 issue 的人是怎么刷出来的，其实我觉得更大的原因是这个 flower 的图片困惑度太高了，让人很难区分，可能会极大降低用户体验。但是相较于人眼来提取特征，我是觉得机器提取特征更快 - -。\n思路就有了，首先组成的分类简单的不能再简单，只需要提取图片的主题色即可，这里我用的 kmeans 来做颜色的聚类进行主题色的提取。这里我选了聚类中心 k=3，这是为了区分明部和暗部，所以各给他们一个中心，剩下的一个交给主题色，这样只需要设定一个阈值，来计算颜色和绿色之前的距离即可。这里选了 200，判别准确率 100%\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 def _style_classification(self, img): # opencv to numpy img = np.array(img) # from 3d -\u003e 2d img = img.reshape((img.shape[0] * img.shape[1], img.shape[2])).astype(np.float64) # print(img.shape) centroid, label = kmeans2(img, k=3) # print(centroid) # print(label) green_centroid = np.array([0.0, 255.0, 0.0]) flag = False min_dis = np.inf for i in range(len(centroid)): # distance between centroid and green \u003c threshold # print(np.linalg.norm(centroid[i] - green_centroid)) min_dis = min(min_dis, np.linalg.norm(centroid[i] - green_centroid)) if min_dis \u003c 200: flag = True return flag 区分象马这个还真是有难度，或者说一点难度有没有。你那图片处理的方法，比如再进行聚类，或者像之前两篇博文一样[1][2]，计算重量或者超像素数量对于这个的区分还真是有点难。因为象马体积也差不多，在下方的也都是 5-6 个支点（因为大象有鼻子和尾巴，马有尾巴和嘴）很难区分。说简单也很简单，这不就是 \"Dog vs Cat\" 吗？深度学习入门图像分类任务罢了…\n首先先来打标签，得用那个风格的分类器来过滤一下，这样可以少打很多标签\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 import os import sys sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) import cv2 from src.services.hcaptcha_challenger.solutions.elephant_solution import ElephantSolution img_path = os.path.join('elephants_drawn_with_leaves') label_file = open('label.txt', 'w') os.makedirs(os.path.join(img_path, 'elephant'), exist_ok=True) os.makedirs(os.path.join(img_path, 'house'), exist_ok=True) if __name__ == '__main__': # 0 for house, 1 for elephant imgs = os.listdir(img_path) edwls = ElephantSolution() for idx, img_ in enumerate(imgs): img_path_ = os.path.join(img_path, img_) if os.path.isdir(img_path_): continue img = cv2.imread(img_path_) cv2.imshow(\"img\", img) print(f'{img_path_}: {idx}') if edwls._style_classification(img): key = cv2.waitKey(0) if key == ord('0'): label_file.write(f'{img_path_} 0\\n') label_file.flush() cv2.imwrite(os.path.join(img_path, 'house', img_), img) print(f'{img_path_} 0: house') elif key == ord('1'): label_file.write(f'{img_path_} 1\\n') label_file.flush() cv2.imwrite(os.path.join(img_path, 'elephant', img_), img) print(f'{img_path_} 1: elephant') else: print('Drop') 设计个简单的 ResNet 模型，没必要用 resnet18 这样庞大的模型，这个问题还不配，所以我 DIY 了一个非常小的模型，图片也被我放缩到了 (64 x 64)，参数可以少很多。\n训练测试一步到胃。\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 import os import sys sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) import shutil import torch import torch.nn as nn import torch.nn.functional as F import torchvision import cv2 from PIL import Image from src.services.hcaptcha_challenger.solutions.elephant_solution import ElephantSolution class ResidualBlock(nn.Module): def __init__(self, in_channels, out_channels, stride=1): super(ResidualBlock, self).__init__() self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size=3, stride=stride, padding=1, bias=False) self.bn1 = nn.BatchNorm2d(out_channels) self.conv2 = nn.Conv2d(out_channels, out_channels, kernel_size=3, stride=1, padding=1, bias=False) self.bn2 = nn.BatchNorm2d(out_channels) self.relu = nn.ReLU(inplace=True) self.downsample = nn.Sequential() if stride != 1 or in_channels != out_channels: self.downsample = nn.Sequential( nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=stride, bias=False), nn.BatchNorm2d(out_channels)) def forward(self, x): residual = x out = self.relu(self.bn1(self.conv1(x))) out = self.bn2(self.conv2(out)) out += self.downsample(residual) out = self.relu(out) return out class Net(nn.Module): def __init__(self, in_channels=3, num_classes=10): super(Net, self).__init__() self.conv1 = nn.Conv2d(in_channels, 16, kernel_size=7, stride=2, padding=3, bias=False) self.bn1 = nn.BatchNorm2d(16) self.relu = nn.ReLU(inplace=True) self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1) self.resblock1 = ResidualBlock(16, 32) self.resblock2 = ResidualBlock(32, 64, stride=2) self.avgpool = nn.AvgPool2d(kernel_size=7, stride=1) self.fc = nn.Linear(256, num_classes) def forward(self, x): x = self.conv1(x) x = self.bn1(x) x = self.relu(x) x = self.maxpool(x) x = self.resblock1(x) x = self.resblock2(x) x = self.avgpool(x) x = x.view(x.size(0), -1) # print(x.size()) x = self.fc(x) return x img_path = os.path.join('..', 'database', 'elephants_drawn_with_leaves') img_transform = torchvision.transforms.Compose([ # torchvision.transforms.Grayscale(num_output_channels=1), # torchvision.transforms.GaussianBlur(kernel_size=3), torchvision.transforms.Resize((64, 64)), torchvision.transforms.ToTensor(), ]) def train(): model = Net(3, 2) model.train() model.cuda() optimizer = torch.optim.Adam(model.parameters(), lr=0.005) # focal loss criterion = nn.CrossEntropyLoss() print('model:', model) data = torchvision.datasets.ImageFolder(img_path, transform=img_transform) data_loader = torch.utils.data.DataLoader(data, batch_size=1, shuffle=True) print(f'{len(data)} images') epochs = 20 # train with focal loss for epoch in range(epochs): total_loss = 0 total_acc = 0 for i, (img, label) in enumerate(data_loader): img = img.cuda() label = label.cuda() optimizer.zero_grad() out = model(img) loss = criterion(out, label) loss.backward() optimizer.step() if (i + 1) % 10 == 0: print(f'epoch: {epoch + 1}, iter: {i + 1}, loss: {loss.item():.4f}') total_loss += loss.item() total_acc += torch.sum(torch.argmax(out, dim=1) == label).item() print( f'epoch: {epoch + 1}, avg loss: {total_loss / len(data):.4f}, avg acc: {total_acc / len(data):.4f}' ) torch.save(model.state_dict(), 'model.pth') def test_single(model, img): img = img_transform(img) img = img.unsqueeze(0) img = img.cuda() out = model(img) pred = torch.argmax(out, dim=1) # print(f'pred: {pred.item()}') if pred.item() == 0: return 0 else: return 1 def test(): model = Net(3, 2) model.load_state_dict(torch.load('model.pth')) model.eval() torch.onnx.export(model, torch.randn(1, 3, 64, 64), 'model.onnx', verbose=True, export_params=True) model.cuda() test_data_path = os.path.join('val-dataset') imgs = os.listdir(test_data_path) dir1 = os.path.join('val-dataset', 'elephant_drawn_with_leaves') dir2 = os.path.join('val-dataset', 'house_drawn_with_leaves') dir3 = os.path.join('val-dataset', 'without_leaves') dirs = [dir1, dir2, dir3] for dir in dirs: if os.path.exists(dir): shutil.rmtree(dir) os.mkdir(dir) es = ElephantSolution() for img in imgs: if os.path.isdir(os.path.join(test_data_path, img)): continue img_ = cv2.imread(os.path.join(test_data_path, img)) result = 2 if es._style_classification(img_): result = test_single(model, Image.open(os.path.join(test_data_path, img))) print(f'{img} is {result} save to {os.path.join(dirs[result], img)}') cv2.imwrite(os.path.join(dirs[result], img), img_) if __name__ == '__main__': train() test() 这里有个很有意思的地方，一开始 train 完之后拿去测试，发现错误率还挺高的，可能有 10% 这样，这几乎是不可接受的，因为验证码一共就 9 张，不太好搞，然后我以为是过拟合（这应该是常规思路吧，毕竟训练集都快 100% 了），结果把 lr 调大，epoch 调小，怎么做都会有 5% 左右的错误率。我就纳了闷了，这么简单的分类任务，怎么会这么差。后来啊…我把 epoch 破天荒地调大了，发现测试集也几乎 100%了，最后整个测试集的错误率大概在 1.8% 左右，也就没再继续优化，甚至懒得再把测试数据拿进去 train 了。\n最后整个模型参数保存成 pt 也就 311KB，如果导出 onnx 才 290KB。\n这里又学到一个技巧，导出成 onnx 以后可以直接用 opencv 来进行推理，这样可以极大的节省部署环境的资源。\nSolution 完整的代码在下面\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 import os import sys sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) import cv2 import numpy as np from scipy.cluster.vq import kmeans2 class ElephantSolution: def __init__(self): self.debug = True def solution(self, img_stream, **kwargs) -\u003e bool: # noqa \"\"\"Implementation process of solution\"\"\" img_arr = np.frombuffer(img_stream, np.uint8) img = cv2.imdecode(img_arr, flags=1) cv2.imshow(\"img\", img) cv2.waitKey(0) if not self._style_classification(img): return False # using model to predict # print(img.shape) # resize img = cv2.resize(img, (64, 64)) # print(img.shape) model_path = os.path.join('..', '..', '..', 'model', 'elephant_model.onnx') model = cv2.dnn.readNetFromONNX(model_path) blob = cv2.dnn.blobFromImage(img, 1 / 255.0, (64, 64), (0, 0, 0), swapRB=True, crop=False) model.setInput(blob) out = model.forward() # print(out.shape) # print(out) label = np.argmax(out, axis=1)[0] # print(label) if label == 0: return True return False def _style_classification(self, img): # opencv to numpy img = np.array(img) # from 3d -\u003e 2d img = img.reshape((img.shape[0] * img.shape[1], img.shape[2])).astype(np.float64) # print(img.shape) centroid, label = kmeans2(img, k=3) # print(centroid) # print(label) green_centroid = np.array([0.0, 255.0, 0.0]) flag = False min_dis = np.inf for i in range(len(centroid)): # distance between centroid and green \u003c threshold # print(np.linalg.norm(centroid[i] - green_centroid)) min_dis = min(min_dis, np.linalg.norm(centroid[i] - green_centroid)) if min_dis \u003c 200: flag = True return flag ","wordCount":"2130","inLanguage":"zh-cn","datePublished":"2022-05-01T01:53:15+08:00","dateModified":"2023-03-21T12:52:17+08:00","author":{"@type":"Person","name":"北屿"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/"},"publisher":{"@type":"Organization","name":"小冰爱吃盐","logo":{"@type":"ImageObject","url":"https://blog.bj-yan.top/favicon.jpg"}}}</script></head><body class=dark id=top><header class=header><nav class=nav><div class=logo><a href=https://blog.bj-yan.top/ accesskey=h title="Home (Alt + H)"><img src=/favicon.jpg alt=logo aria-label=logo height=35>Home</a>
+<span class=logo-switches><ul class=lang-switch><li>|</li></ul></span></div><ul id=menu><li><a href=https://blog.bj-yan.top/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://blog.bj-yan.top/post/ title=Posts><span>Posts</span></a></li><li><a href=https://blog.bj-yan.top/archives title=Archive><span>Archive</span></a></li><li><a href=https://blog.bj-yan.top/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://blog.bj-yan.top/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://blog.bj-yan.top/about/ title=About><span>About</span></a></li><li><a href=https://blog.bj-yan.top/friends/ title=Friends><span>Friends</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://blog.bj-yan.top/>Home</a>&nbsp;»&nbsp;<a href=https://blog.bj-yan.top/post/>Posts</a></div><h1 class=post-title>"Please select all the elephants drawn with lеaves"</h1><div class=post-meta>May 1, 2022 · Edited March 21, 2023 · 2130 words · 5 min · 北屿&nbsp;|&nbsp;<a href=https://github.com/beiyuouo/blog-source/tree/main/content/post/blog-hcaptcha-elephant-drawn-with-leaves.md rel="noopener noreferrer" target=_blank>Edit</a></div></header><div class=post-content><p>好像这个 prompt 和 水上飞机的 prompt 最近出现的频率比较高，应该是放到生产环境中了。</p><p>那么自然要来搞他，数据集可以在<a href=https://github.com/QIN2DIM/img_pool/releases/tag/elephants_drawn_with_leaves>这里</a>找到</p><figure><img loading=lazy src=/img/hcaptcha-elephant-drawn-with-leaves/overview.png#center></figure><p>先来分析一下，一共就三种类型，一种是树叶组成的，一种是花瓣组成的，还有一种不知道是什么玄学组成的黑不拉几的东西. 再来看组成的内容，除了象就是马，就是一个二分类呗。</p><p>其实除了 <code>"Please select all the elephants drawn with lеaves"</code> 这个 prompt 之外，还有一个类似的 <a href=https://github.com/QIN2DIM/hcaptcha-challenger/issues/32><code>"Please select all the horses drawn with flowers"</code></a>，但是这个 prompt 几乎没有见到过，不知道提这个 issue 的人是怎么刷出来的，其实我觉得更大的原因是这个 flower 的图片困惑度太高了，让人很难区分，可能会极大降低用户体验。但是相较于人眼来提取特征，我是觉得机器提取特征更快 - -。</p><p><figure><img loading=lazy src=/img/hcaptcha-elephant-drawn-with-leaves/flower-1.png#center></figure><figure><img loading=lazy src=/img/hcaptcha-elephant-drawn-with-leaves/flower-2.png#center></figure><figure><img loading=lazy src=/img/hcaptcha-elephant-drawn-with-leaves/unknown-1.png#center></figure><figure><img loading=lazy src=/img/hcaptcha-elephant-drawn-with-leaves/unknown-2.png#center></figure></p><p>思路就有了，首先组成的分类简单的不能再简单，只需要提取图片的主题色即可，这里我用的 <code>kmeans</code> 来做颜色的聚类进行主题色的提取。这里我选了聚类中心 <code>k=3</code>，这是为了区分明部和暗部，所以各给他们一个中心，剩下的一个交给主题色，这样只需要设定一个阈值，来计算颜色和绿色之前的距离即可。这里选了 200，判别准确率 100%</p><div class=highlight><div style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">23
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>_style_classification</span>(self, img):
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># opencv to numpy</span>
+</span></span><span style=display:flex><span>    img = np.array(img)
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># from 3d -&gt; 2d</span>
+</span></span><span style=display:flex><span>    img = img.reshape((img.shape[<span style=color:#3677a9>0</span>] * img.shape[<span style=color:#3677a9>1</span>], img.shape[<span style=color:#3677a9>2</span>])).astype(np.float64)
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># print(img.shape)</span>
+</span></span><span style=display:flex><span>    centroid, label = kmeans2(img, k=<span style=color:#3677a9>3</span>)
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># print(centroid)</span>
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># print(label)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    green_centroid = np.array([<span style=color:#3677a9>0.0</span>, <span style=color:#3677a9>255.0</span>, <span style=color:#3677a9>0.0</span>])
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    flag = <span style=color:#6ab825;font-weight:700>False</span>
+</span></span><span style=display:flex><span>    min_dis = np.inf
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>for</span> i <span style=color:#6ab825;font-weight:700>in</span> <span style=color:#24909d>range</span>(<span style=color:#24909d>len</span>(centroid)):
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># distance between centroid and green &lt; threshold</span>
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(np.linalg.norm(centroid[i] - green_centroid))</span>
+</span></span><span style=display:flex><span>        min_dis = <span style=color:#24909d>min</span>(min_dis, np.linalg.norm(centroid[i] - green_centroid))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>if</span> min_dis &lt; <span style=color:#3677a9>200</span>:
+</span></span><span style=display:flex><span>        flag = <span style=color:#6ab825;font-weight:700>True</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>return</span> flag
+</span></span></code></pre></td></tr></table></div></div><p>区分象马这个还真是有难度，或者说一点难度有没有。你那图片处理的方法，比如再进行聚类，或者像之前两篇博文一样<a href=/p/blog-hcaptcha-sky-left-airplane>[1]</a><a href=/p/blog-hcaptcha-vertical-river>[2]</a>，计算重量或者超像素数量对于这个的区分还真是有点难。因为象马体积也差不多，在下方的也都是 5-6 个支点（因为大象有鼻子和尾巴，马有尾巴和嘴）很难区分。说简单也很简单，这不就是 <code>"Dog vs Cat"</code> 吗？深度学习入门图像分类任务罢了&mldr;</p><p>首先先来打标签，得用那个风格的分类器来过滤一下，这样可以少打很多标签</p><div class=highlight><div style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">38
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>os</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>sys</span>
+</span></span><span style=display:flex><span>sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>cv2</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>from</span> <span style=color:#447fcf;text-decoration:underline>src.services.hcaptcha_challenger.solutions.elephant_solution</span> <span style=color:#6ab825;font-weight:700>import</span> ElephantSolution
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>img_path = os.path.join(<span style=color:#ed9d13>&#39;elephants_drawn_with_leaves&#39;</span>)
+</span></span><span style=display:flex><span>label_file = <span style=color:#24909d>open</span>(<span style=color:#ed9d13>&#39;label.txt&#39;</span>, <span style=color:#ed9d13>&#39;w&#39;</span>)
+</span></span><span style=display:flex><span>os.makedirs(os.path.join(img_path, <span style=color:#ed9d13>&#39;elephant&#39;</span>), exist_ok=<span style=color:#6ab825;font-weight:700>True</span>)
+</span></span><span style=display:flex><span>os.makedirs(os.path.join(img_path, <span style=color:#ed9d13>&#39;house&#39;</span>), exist_ok=<span style=color:#6ab825;font-weight:700>True</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>if</span> __name__ == <span style=color:#ed9d13>&#39;__main__&#39;</span>:
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># 0 for house, 1 for elephant</span>
+</span></span><span style=display:flex><span>    imgs = os.listdir(img_path)
+</span></span><span style=display:flex><span>    edwls = ElephantSolution()
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>for</span> idx, img_ <span style=color:#6ab825;font-weight:700>in</span> <span style=color:#24909d>enumerate</span>(imgs):
+</span></span><span style=display:flex><span>        img_path_ = os.path.join(img_path, img_)
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> os.path.isdir(img_path_):
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>continue</span>
+</span></span><span style=display:flex><span>        img = cv2.imread(img_path_)
+</span></span><span style=display:flex><span>        cv2.imshow(<span style=color:#ed9d13>&#34;img&#34;</span>, img)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#24909d>print</span>(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span>img_path_<span style=color:#ed9d13>}</span><span style=color:#ed9d13>: </span><span style=color:#ed9d13>{</span>idx<span style=color:#ed9d13>}</span><span style=color:#ed9d13>&#39;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> edwls._style_classification(img):
+</span></span><span style=display:flex><span>            key = cv2.waitKey(<span style=color:#3677a9>0</span>)
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>if</span> key == <span style=color:#24909d>ord</span>(<span style=color:#ed9d13>&#39;0&#39;</span>):
+</span></span><span style=display:flex><span>                label_file.write(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span>img_path_<span style=color:#ed9d13>}</span><span style=color:#ed9d13> 0</span><span style=color:#ed9d13>\n</span><span style=color:#ed9d13>&#39;</span>)
+</span></span><span style=display:flex><span>                label_file.flush()
+</span></span><span style=display:flex><span>                cv2.imwrite(os.path.join(img_path, <span style=color:#ed9d13>&#39;house&#39;</span>, img_), img)
+</span></span><span style=display:flex><span>                <span style=color:#24909d>print</span>(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span>img_path_<span style=color:#ed9d13>}</span><span style=color:#ed9d13> 0: house&#39;</span>)
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>elif</span> key == <span style=color:#24909d>ord</span>(<span style=color:#ed9d13>&#39;1&#39;</span>):
+</span></span><span style=display:flex><span>                label_file.write(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span>img_path_<span style=color:#ed9d13>}</span><span style=color:#ed9d13> 1</span><span style=color:#ed9d13>\n</span><span style=color:#ed9d13>&#39;</span>)
+</span></span><span style=display:flex><span>                label_file.flush()
+</span></span><span style=display:flex><span>                cv2.imwrite(os.path.join(img_path, <span style=color:#ed9d13>&#39;elephant&#39;</span>, img_), img)
+</span></span><span style=display:flex><span>                <span style=color:#24909d>print</span>(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span>img_path_<span style=color:#ed9d13>}</span><span style=color:#ed9d13> 1: elephant&#39;</span>)
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>else</span>:
+</span></span><span style=display:flex><span>            <span style=color:#24909d>print</span>(<span style=color:#ed9d13>&#39;Drop&#39;</span>)
+</span></span></code></pre></td></tr></table></div></div><p>设计个简单的 ResNet 模型，没必要用 resnet18 这样庞大的模型，这个问题还不配，所以我 DIY 了一个非常小的模型，图片也被我放缩到了 (64 x 64)，参数可以少很多。</p><p>训练测试一步到胃。</p><div class=highlight><div style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">  9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 66
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 67
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 68
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 69
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 70
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 71
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 72
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 73
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 74
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 75
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 76
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 77
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 78
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 79
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 80
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 81
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 82
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 83
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 84
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 85
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 86
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 87
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 88
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 89
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 90
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 91
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 92
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 93
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 94
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 95
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 96
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 97
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 98
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 99
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">100
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">101
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">102
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">103
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">104
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">105
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">106
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">107
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">108
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">109
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">110
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">111
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">112
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">113
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">114
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">115
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">116
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">117
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">118
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">119
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">120
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">121
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">122
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">123
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">124
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">125
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">126
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">127
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">128
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">129
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">130
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">131
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">132
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">133
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">134
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">135
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">136
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">137
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">138
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">139
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">140
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">141
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">142
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">143
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">144
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">145
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">146
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">147
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">148
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">149
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">150
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">151
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">152
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">153
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">154
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">155
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">156
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">157
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">158
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">159
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">160
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">161
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">162
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">163
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">164
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">165
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">166
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">167
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">168
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">169
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">170
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">171
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">172
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">173
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">174
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">175
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">176
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">177
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">178
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>os</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>sys</span>
+</span></span><span style=display:flex><span>sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>shutil</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>torch</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>torch.nn</span> <span style=color:#6ab825;font-weight:700>as</span> <span style=color:#447fcf;text-decoration:underline>nn</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>torch.nn.functional</span> <span style=color:#6ab825;font-weight:700>as</span> <span style=color:#447fcf;text-decoration:underline>F</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>torchvision</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>cv2</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>from</span> <span style=color:#447fcf;text-decoration:underline>PIL</span> <span style=color:#6ab825;font-weight:700>import</span> Image
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>from</span> <span style=color:#447fcf;text-decoration:underline>src.services.hcaptcha_challenger.solutions.elephant_solution</span> <span style=color:#6ab825;font-weight:700>import</span> ElephantSolution
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>class</span> <span style=color:#447fcf;text-decoration:underline>ResidualBlock</span>(nn.Module):
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> __init__(self, in_channels, out_channels, stride=<span style=color:#3677a9>1</span>):
+</span></span><span style=display:flex><span>        <span style=color:#24909d>super</span>(ResidualBlock, self).__init__()
+</span></span><span style=display:flex><span>        self.conv1 = nn.Conv2d(in_channels,
+</span></span><span style=display:flex><span>                               out_channels,
+</span></span><span style=display:flex><span>                               kernel_size=<span style=color:#3677a9>3</span>,
+</span></span><span style=display:flex><span>                               stride=stride,
+</span></span><span style=display:flex><span>                               padding=<span style=color:#3677a9>1</span>,
+</span></span><span style=display:flex><span>                               bias=<span style=color:#6ab825;font-weight:700>False</span>)
+</span></span><span style=display:flex><span>        self.bn1 = nn.BatchNorm2d(out_channels)
+</span></span><span style=display:flex><span>        self.conv2 = nn.Conv2d(out_channels,
+</span></span><span style=display:flex><span>                               out_channels,
+</span></span><span style=display:flex><span>                               kernel_size=<span style=color:#3677a9>3</span>,
+</span></span><span style=display:flex><span>                               stride=<span style=color:#3677a9>1</span>,
+</span></span><span style=display:flex><span>                               padding=<span style=color:#3677a9>1</span>,
+</span></span><span style=display:flex><span>                               bias=<span style=color:#6ab825;font-weight:700>False</span>)
+</span></span><span style=display:flex><span>        self.bn2 = nn.BatchNorm2d(out_channels)
+</span></span><span style=display:flex><span>        self.relu = nn.ReLU(inplace=<span style=color:#6ab825;font-weight:700>True</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        self.downsample = nn.Sequential()
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> stride != <span style=color:#3677a9>1</span> <span style=color:#6ab825;font-weight:700>or</span> in_channels != out_channels:
+</span></span><span style=display:flex><span>            self.downsample = nn.Sequential(
+</span></span><span style=display:flex><span>                nn.Conv2d(in_channels, out_channels, kernel_size=<span style=color:#3677a9>1</span>, stride=stride, bias=<span style=color:#6ab825;font-weight:700>False</span>),
+</span></span><span style=display:flex><span>                nn.BatchNorm2d(out_channels))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>forward</span>(self, x):
+</span></span><span style=display:flex><span>        residual = x
+</span></span><span style=display:flex><span>        out = self.relu(self.bn1(self.conv1(x)))
+</span></span><span style=display:flex><span>        out = self.bn2(self.conv2(out))
+</span></span><span style=display:flex><span>        out += self.downsample(residual)
+</span></span><span style=display:flex><span>        out = self.relu(out)
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>return</span> out
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>class</span> <span style=color:#447fcf;text-decoration:underline>Net</span>(nn.Module):
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> __init__(self, in_channels=<span style=color:#3677a9>3</span>, num_classes=<span style=color:#3677a9>10</span>):
+</span></span><span style=display:flex><span>        <span style=color:#24909d>super</span>(Net, self).__init__()
+</span></span><span style=display:flex><span>        self.conv1 = nn.Conv2d(in_channels, <span style=color:#3677a9>16</span>, kernel_size=<span style=color:#3677a9>7</span>, stride=<span style=color:#3677a9>2</span>, padding=<span style=color:#3677a9>3</span>, bias=<span style=color:#6ab825;font-weight:700>False</span>)
+</span></span><span style=display:flex><span>        self.bn1 = nn.BatchNorm2d(<span style=color:#3677a9>16</span>)
+</span></span><span style=display:flex><span>        self.relu = nn.ReLU(inplace=<span style=color:#6ab825;font-weight:700>True</span>)
+</span></span><span style=display:flex><span>        self.maxpool = nn.MaxPool2d(kernel_size=<span style=color:#3677a9>3</span>, stride=<span style=color:#3677a9>2</span>, padding=<span style=color:#3677a9>1</span>)
+</span></span><span style=display:flex><span>        self.resblock1 = ResidualBlock(<span style=color:#3677a9>16</span>, <span style=color:#3677a9>32</span>)
+</span></span><span style=display:flex><span>        self.resblock2 = ResidualBlock(<span style=color:#3677a9>32</span>, <span style=color:#3677a9>64</span>, stride=<span style=color:#3677a9>2</span>)
+</span></span><span style=display:flex><span>        self.avgpool = nn.AvgPool2d(kernel_size=<span style=color:#3677a9>7</span>, stride=<span style=color:#3677a9>1</span>)
+</span></span><span style=display:flex><span>        self.fc = nn.Linear(<span style=color:#3677a9>256</span>, num_classes)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>forward</span>(self, x):
+</span></span><span style=display:flex><span>        x = self.conv1(x)
+</span></span><span style=display:flex><span>        x = self.bn1(x)
+</span></span><span style=display:flex><span>        x = self.relu(x)
+</span></span><span style=display:flex><span>        x = self.maxpool(x)
+</span></span><span style=display:flex><span>        x = self.resblock1(x)
+</span></span><span style=display:flex><span>        x = self.resblock2(x)
+</span></span><span style=display:flex><span>        x = self.avgpool(x)
+</span></span><span style=display:flex><span>        x = x.view(x.size(<span style=color:#3677a9>0</span>), -<span style=color:#3677a9>1</span>)
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(x.size())</span>
+</span></span><span style=display:flex><span>        x = self.fc(x)
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>return</span> x
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>img_path = os.path.join(<span style=color:#ed9d13>&#39;..&#39;</span>, <span style=color:#ed9d13>&#39;database&#39;</span>, <span style=color:#ed9d13>&#39;elephants_drawn_with_leaves&#39;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>img_transform = torchvision.transforms.Compose([
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># torchvision.transforms.Grayscale(num_output_channels=1),</span>
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># torchvision.transforms.GaussianBlur(kernel_size=3),</span>
+</span></span><span style=display:flex><span>    torchvision.transforms.Resize((<span style=color:#3677a9>64</span>, <span style=color:#3677a9>64</span>)),
+</span></span><span style=display:flex><span>    torchvision.transforms.ToTensor(),
+</span></span><span style=display:flex><span>])
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>train</span>():
+</span></span><span style=display:flex><span>    model = Net(<span style=color:#3677a9>3</span>, <span style=color:#3677a9>2</span>)
+</span></span><span style=display:flex><span>    model.train()
+</span></span><span style=display:flex><span>    model.cuda()
+</span></span><span style=display:flex><span>    optimizer = torch.optim.Adam(model.parameters(), lr=<span style=color:#3677a9>0.005</span>)
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># focal loss</span>
+</span></span><span style=display:flex><span>    criterion = nn.CrossEntropyLoss()
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#24909d>print</span>(<span style=color:#ed9d13>&#39;model:&#39;</span>, model)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    data = torchvision.datasets.ImageFolder(img_path, transform=img_transform)
+</span></span><span style=display:flex><span>    data_loader = torch.utils.data.DataLoader(data, batch_size=<span style=color:#3677a9>1</span>, shuffle=<span style=color:#6ab825;font-weight:700>True</span>)
+</span></span><span style=display:flex><span>    <span style=color:#24909d>print</span>(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span><span style=color:#24909d>len</span>(data)<span style=color:#ed9d13>}</span><span style=color:#ed9d13> images&#39;</span>)
+</span></span><span style=display:flex><span>    epochs = <span style=color:#3677a9>20</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># train with focal loss</span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>for</span> epoch <span style=color:#6ab825;font-weight:700>in</span> <span style=color:#24909d>range</span>(epochs):
+</span></span><span style=display:flex><span>        total_loss = <span style=color:#3677a9>0</span>
+</span></span><span style=display:flex><span>        total_acc = <span style=color:#3677a9>0</span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>for</span> i, (img, label) <span style=color:#6ab825;font-weight:700>in</span> <span style=color:#24909d>enumerate</span>(data_loader):
+</span></span><span style=display:flex><span>            img = img.cuda()
+</span></span><span style=display:flex><span>            label = label.cuda()
+</span></span><span style=display:flex><span>            optimizer.zero_grad()
+</span></span><span style=display:flex><span>            out = model(img)
+</span></span><span style=display:flex><span>            loss = criterion(out, label)
+</span></span><span style=display:flex><span>            loss.backward()
+</span></span><span style=display:flex><span>            optimizer.step()
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>if</span> (i + <span style=color:#3677a9>1</span>) % <span style=color:#3677a9>10</span> == <span style=color:#3677a9>0</span>:
+</span></span><span style=display:flex><span>                <span style=color:#24909d>print</span>(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;epoch: </span><span style=color:#ed9d13>{</span>epoch + <span style=color:#3677a9>1</span><span style=color:#ed9d13>}</span><span style=color:#ed9d13>, iter: </span><span style=color:#ed9d13>{</span>i + <span style=color:#3677a9>1</span><span style=color:#ed9d13>}</span><span style=color:#ed9d13>, loss: </span><span style=color:#ed9d13>{</span>loss.item()<span style=color:#ed9d13>:</span><span style=color:#ed9d13>.4f</span><span style=color:#ed9d13>}</span><span style=color:#ed9d13>&#39;</span>)
+</span></span><span style=display:flex><span>            total_loss += loss.item()
+</span></span><span style=display:flex><span>            total_acc += torch.sum(torch.argmax(out, dim=<span style=color:#3677a9>1</span>) == label).item()
+</span></span><span style=display:flex><span>        <span style=color:#24909d>print</span>(
+</span></span><span style=display:flex><span>            <span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;epoch: </span><span style=color:#ed9d13>{</span>epoch + <span style=color:#3677a9>1</span><span style=color:#ed9d13>}</span><span style=color:#ed9d13>, avg loss: </span><span style=color:#ed9d13>{</span>total_loss / <span style=color:#24909d>len</span>(data)<span style=color:#ed9d13>:</span><span style=color:#ed9d13>.4f</span><span style=color:#ed9d13>}</span><span style=color:#ed9d13>, avg acc: </span><span style=color:#ed9d13>{</span>total_acc / <span style=color:#24909d>len</span>(data)<span style=color:#ed9d13>:</span><span style=color:#ed9d13>.4f</span><span style=color:#ed9d13>}</span><span style=color:#ed9d13>&#39;</span>
+</span></span><span style=display:flex><span>        )
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    torch.save(model.state_dict(), <span style=color:#ed9d13>&#39;model.pth&#39;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>test_single</span>(model, img):
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    img = img_transform(img)
+</span></span><span style=display:flex><span>    img = img.unsqueeze(<span style=color:#3677a9>0</span>)
+</span></span><span style=display:flex><span>    img = img.cuda()
+</span></span><span style=display:flex><span>    out = model(img)
+</span></span><span style=display:flex><span>    pred = torch.argmax(out, dim=<span style=color:#3677a9>1</span>)
+</span></span><span style=display:flex><span>    <span style=color:#999;font-style:italic># print(f&#39;pred: {pred.item()}&#39;)</span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>if</span> pred.item() == <span style=color:#3677a9>0</span>:
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>return</span> <span style=color:#3677a9>0</span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>else</span>:
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>return</span> <span style=color:#3677a9>1</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>test</span>():
+</span></span><span style=display:flex><span>    model = Net(<span style=color:#3677a9>3</span>, <span style=color:#3677a9>2</span>)
+</span></span><span style=display:flex><span>    model.load_state_dict(torch.load(<span style=color:#ed9d13>&#39;model.pth&#39;</span>))
+</span></span><span style=display:flex><span>    model.eval()
+</span></span><span style=display:flex><span>    torch.onnx.export(model,
+</span></span><span style=display:flex><span>                      torch.randn(<span style=color:#3677a9>1</span>, <span style=color:#3677a9>3</span>, <span style=color:#3677a9>64</span>, <span style=color:#3677a9>64</span>),
+</span></span><span style=display:flex><span>                      <span style=color:#ed9d13>&#39;model.onnx&#39;</span>,
+</span></span><span style=display:flex><span>                      verbose=<span style=color:#6ab825;font-weight:700>True</span>,
+</span></span><span style=display:flex><span>                      export_params=<span style=color:#6ab825;font-weight:700>True</span>)
+</span></span><span style=display:flex><span>    model.cuda()
+</span></span><span style=display:flex><span>    test_data_path = os.path.join(<span style=color:#ed9d13>&#39;val-dataset&#39;</span>)
+</span></span><span style=display:flex><span>    imgs = os.listdir(test_data_path)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    dir1 = os.path.join(<span style=color:#ed9d13>&#39;val-dataset&#39;</span>, <span style=color:#ed9d13>&#39;elephant_drawn_with_leaves&#39;</span>)
+</span></span><span style=display:flex><span>    dir2 = os.path.join(<span style=color:#ed9d13>&#39;val-dataset&#39;</span>, <span style=color:#ed9d13>&#39;house_drawn_with_leaves&#39;</span>)
+</span></span><span style=display:flex><span>    dir3 = os.path.join(<span style=color:#ed9d13>&#39;val-dataset&#39;</span>, <span style=color:#ed9d13>&#39;without_leaves&#39;</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    dirs = [dir1, dir2, dir3]
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>for</span> <span style=color:#24909d>dir</span> <span style=color:#6ab825;font-weight:700>in</span> dirs:
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> os.path.exists(<span style=color:#24909d>dir</span>):
+</span></span><span style=display:flex><span>            shutil.rmtree(<span style=color:#24909d>dir</span>)
+</span></span><span style=display:flex><span>        os.mkdir(<span style=color:#24909d>dir</span>)
+</span></span><span style=display:flex><span>    es = ElephantSolution()
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>for</span> img <span style=color:#6ab825;font-weight:700>in</span> imgs:
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> os.path.isdir(os.path.join(test_data_path, img)):
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>continue</span>
+</span></span><span style=display:flex><span>        img_ = cv2.imread(os.path.join(test_data_path, img))
+</span></span><span style=display:flex><span>        result = <span style=color:#3677a9>2</span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> es._style_classification(img_):
+</span></span><span style=display:flex><span>            result = test_single(model, Image.open(os.path.join(test_data_path, img)))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#24909d>print</span>(<span style=color:#ed9d13>f</span><span style=color:#ed9d13>&#39;</span><span style=color:#ed9d13>{</span>img<span style=color:#ed9d13>}</span><span style=color:#ed9d13> is </span><span style=color:#ed9d13>{</span>result<span style=color:#ed9d13>}</span><span style=color:#ed9d13> save to </span><span style=color:#ed9d13>{</span>os.path.join(dirs[result], img)<span style=color:#ed9d13>}</span><span style=color:#ed9d13>&#39;</span>)
+</span></span><span style=display:flex><span>        cv2.imwrite(os.path.join(dirs[result], img), img_)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>if</span> __name__ == <span style=color:#ed9d13>&#39;__main__&#39;</span>:
+</span></span><span style=display:flex><span>    train()
+</span></span><span style=display:flex><span>    test()
+</span></span></code></pre></td></tr></table></div></div><p>这里有个很有意思的地方，一开始 train 完之后拿去测试，发现错误率还挺高的，可能有 10% 这样，这几乎是不可接受的，因为验证码一共就 9 张，不太好搞，然后我以为是过拟合（这应该是常规思路吧，毕竟训练集都快 100% 了），结果把 lr 调大，epoch 调小，怎么做都会有 5% 左右的错误率。我就纳了闷了，这么简单的分类任务，怎么会这么差。后来啊&mldr;我把 epoch 破天荒地调大了，发现测试集也几乎 100%了，最后整个测试集的错误率大概在 1.8% 左右，也就没再继续优化，甚至懒得再把测试数据拿进去 train 了。</p><figure><img loading=lazy src=/img/hcaptcha-elephant-drawn-with-leaves/demo.gif#center></figure><p>最后整个模型参数保存成 <code>pt</code> 也就 <code>311KB</code>，如果导出 <code>onnx</code> 才 <code>290KB</code>。</p><p>这里又学到一个技巧，导出成 <code>onnx</code> 以后可以直接用 <code>opencv</code> 来进行推理，这样可以极大的节省部署环境的资源。</p><p>Solution 完整的代码在下面</p><div class=highlight><div style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#686868">66
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-python data-lang=python><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>os</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>sys</span>
+</span></span><span style=display:flex><span>sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>cv2</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>import</span> <span style=color:#447fcf;text-decoration:underline>numpy</span> <span style=color:#6ab825;font-weight:700>as</span> <span style=color:#447fcf;text-decoration:underline>np</span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>from</span> <span style=color:#447fcf;text-decoration:underline>scipy.cluster.vq</span> <span style=color:#6ab825;font-weight:700>import</span> kmeans2
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#6ab825;font-weight:700>class</span> <span style=color:#447fcf;text-decoration:underline>ElephantSolution</span>:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> __init__(self):
+</span></span><span style=display:flex><span>        self.debug = <span style=color:#6ab825;font-weight:700>True</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>solution</span>(self, img_stream, **kwargs) -&gt; <span style=color:#24909d>bool</span>:  <span style=color:#999;font-style:italic># noqa</span>
+</span></span><span style=display:flex><span>        <span style=color:#ed9d13>&#34;&#34;&#34;Implementation process of solution&#34;&#34;&#34;</span>
+</span></span><span style=display:flex><span>        img_arr = np.frombuffer(img_stream, np.uint8)
+</span></span><span style=display:flex><span>        img = cv2.imdecode(img_arr, flags=<span style=color:#3677a9>1</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        cv2.imshow(<span style=color:#ed9d13>&#34;img&#34;</span>, img)
+</span></span><span style=display:flex><span>        cv2.waitKey(<span style=color:#3677a9>0</span>)
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> <span style=color:#6ab825;font-weight:700>not</span> self._style_classification(img):
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>return</span> <span style=color:#6ab825;font-weight:700>False</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># using model to predict</span>
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(img.shape)</span>
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># resize</span>
+</span></span><span style=display:flex><span>        img = cv2.resize(img, (<span style=color:#3677a9>64</span>, <span style=color:#3677a9>64</span>))
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(img.shape)</span>
+</span></span><span style=display:flex><span>        model_path = os.path.join(<span style=color:#ed9d13>&#39;..&#39;</span>, <span style=color:#ed9d13>&#39;..&#39;</span>, <span style=color:#ed9d13>&#39;..&#39;</span>, <span style=color:#ed9d13>&#39;model&#39;</span>, <span style=color:#ed9d13>&#39;elephant_model.onnx&#39;</span>)
+</span></span><span style=display:flex><span>        model = cv2.dnn.readNetFromONNX(model_path)
+</span></span><span style=display:flex><span>        blob = cv2.dnn.blobFromImage(img, <span style=color:#3677a9>1</span> / <span style=color:#3677a9>255.0</span>, (<span style=color:#3677a9>64</span>, <span style=color:#3677a9>64</span>), (<span style=color:#3677a9>0</span>, <span style=color:#3677a9>0</span>, <span style=color:#3677a9>0</span>), swapRB=<span style=color:#6ab825;font-weight:700>True</span>, crop=<span style=color:#6ab825;font-weight:700>False</span>)
+</span></span><span style=display:flex><span>        model.setInput(blob)
+</span></span><span style=display:flex><span>        out = model.forward()
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(out.shape)</span>
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(out)</span>
+</span></span><span style=display:flex><span>        label = np.argmax(out, axis=<span style=color:#3677a9>1</span>)[<span style=color:#3677a9>0</span>]
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(label)</span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> label == <span style=color:#3677a9>0</span>:
+</span></span><span style=display:flex><span>            <span style=color:#6ab825;font-weight:700>return</span> <span style=color:#6ab825;font-weight:700>True</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>return</span> <span style=color:#6ab825;font-weight:700>False</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>    <span style=color:#6ab825;font-weight:700>def</span> <span style=color:#447fcf>_style_classification</span>(self, img):
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># opencv to numpy</span>
+</span></span><span style=display:flex><span>        img = np.array(img)
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># from 3d -&gt; 2d</span>
+</span></span><span style=display:flex><span>        img = img.reshape((img.shape[<span style=color:#3677a9>0</span>] * img.shape[<span style=color:#3677a9>1</span>], img.shape[<span style=color:#3677a9>2</span>])).astype(np.float64)
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(img.shape)</span>
+</span></span><span style=display:flex><span>        centroid, label = kmeans2(img, k=<span style=color:#3677a9>3</span>)
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(centroid)</span>
+</span></span><span style=display:flex><span>        <span style=color:#999;font-style:italic># print(label)</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        green_centroid = np.array([<span style=color:#3677a9>0.0</span>, <span style=color:#3677a9>255.0</span>, <span style=color:#3677a9>0.0</span>])
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        flag = <span style=color:#6ab825;font-weight:700>False</span>
+</span></span><span style=display:flex><span>        min_dis = np.inf
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>for</span> i <span style=color:#6ab825;font-weight:700>in</span> <span style=color:#24909d>range</span>(<span style=color:#24909d>len</span>(centroid)):
+</span></span><span style=display:flex><span>            <span style=color:#999;font-style:italic># distance between centroid and green &lt; threshold</span>
+</span></span><span style=display:flex><span>            <span style=color:#999;font-style:italic># print(np.linalg.norm(centroid[i] - green_centroid))</span>
+</span></span><span style=display:flex><span>            min_dis = <span style=color:#24909d>min</span>(min_dis, np.linalg.norm(centroid[i] - green_centroid))
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>if</span> min_dis &lt; <span style=color:#3677a9>200</span>:
+</span></span><span style=display:flex><span>            flag = <span style=color:#6ab825;font-weight:700>True</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>        <span style=color:#6ab825;font-weight:700>return</span> flag
+</span></span></code></pre></td></tr></table></div></div></div><footer class=post-footer><div class=post-copyright-div><ul class=post-copyright><div class=post-copyright-title><p>"Please select all the elephants drawn with lеaves"</p><p><a href=https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/>https://blog.bj-yan.top/p/blog-hcaptcha-elephant-drawn-with-leaves/</a></p></div><div class="post-copy-meta level is-mobile"><div class=level-left><div class="level-item is-narrow"><div><h6>作者</h6><p>北屿</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>May 1, 2022</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>March 21, 2023</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class=icons rel=noopener target=_blank title="Creative Commons" href=https://creativecommons.org/><i class="icon fab fa-creative-commons"></i></a>
+<a class=icons rel=noopener target=_blank title=Attribution href=https://creativecommons.org/licenses/by/4.0/><i class="icon fab fa-creative-commons-by"></i></a>
+<a class=icons rel=noopener target=_blank title=Noncommercial href=https://creativecommons.org/licenses/by-nc/4.0/><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></ul></div><ul class=post-tags><li><a href=https://blog.bj-yan.top/tags/blog/>Blog</a></li><li><a href=https://blog.bj-yan.top/tags/deep-learning/>Deep-Learning</a></li><li><a href=https://blog.bj-yan.top/tags/image-classification/>Image-Classification</a></li><li><a href=https://blog.bj-yan.top/tags/hcaptcha/>Hcaptcha</a></li></ul><nav class=paginav><a class=prev href=https://blog.bj-yan.top/p/blog-where-is-the-next-generation-of-captcha/><span class=title>«</span><br><span>Where is the Next Generation of CAPTCHA?</span>
+</a><a class=next href=https://blog.bj-yan.top/p/blog-codecraft-2022/><span class=title>»</span><br><span>baseIine 的无奈 - Codecraft 2022 参赛心路</span></a></nav><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label='share "Please select all the elephants drawn with lеaves" on twitter' href="https://twitter.com/intent/tweet/?text=%22Please%20select%20all%20the%20elephants%20drawn%20with%20l%d0%b5aves%22&amp;url=https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f&amp;hashtags=blog%2chcaptcha%2cdeep-learning%2cimage-classification%2chcaptcha"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label='share "Please select all the elephants drawn with lеaves" on linkedin' href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f&amp;title=%22Please%20select%20all%20the%20elephants%20drawn%20with%20l%d0%b5aves%22&amp;summary=%22Please%20select%20all%20the%20elephants%20drawn%20with%20l%d0%b5aves%22&amp;source=https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label='share "Please select all the elephants drawn with lеaves" on reddit' href="https://reddit.com/submit?url=https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f&title=%22Please%20select%20all%20the%20elephants%20drawn%20with%20l%d0%b5aves%22"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label='share "Please select all the elephants drawn with lеaves" on facebook' href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label='share "Please select all the elephants drawn with lеaves" on whatsapp' href="https://api.whatsapp.com/send?text=%22Please%20select%20all%20the%20elephants%20drawn%20with%20l%d0%b5aves%22%20-%20https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
+</a><a target=_blank rel="noopener noreferrer" aria-label='share "Please select all the elephants drawn with lеaves" on telegram' href="https://telegram.me/share/url?text=%22Please%20select%20all%20the%20elephants%20drawn%20with%20l%d0%b5aves%22&amp;url=https%3a%2f%2fblog.bj-yan.top%2fp%2fblog-hcaptcha-elephant-drawn-with-leaves%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div></footer><div class=reward-container><div>Have fun.</div><button onclick='var qr=document.getElementById("qr");qr.style.display=qr.style.display==="none"?"block":"none"'>Donate</button><div id=qr style=display:none><div style=display:inline-block><img src=/donate/alipay.png alt=alipay><p>alipay</p></div><div style=display:inline-block><img src=/donate/wechatpay.png alt=wechatpay><p>wechatpay</p></div></div></div><div class=comments><div id=comment-giscus></div></div><script>var gis,iframes,path="/p/blog-hcaptcha-elephant-drawn-with-leaves/",path=path.substring(path.indexOf("/")+1),path=decodeURI(path);console.log(path),gis=document.createElement("script"),gis.type="text/javascript",gis.async=!0,gis.setAttribute("src","https://giscus.app/client.js"),gis.setAttribute("data-repo","beiyuouo/blog-comment"),gis.setAttribute("data-repo-id","R_kgDOGF_a6w"),gis.setAttribute("data-category","General"),gis.setAttribute("data-category-id","DIC_kwDOGF_a684B_YGN"),gis.setAttribute("data-mapping","pathname"),gis.setAttribute("data-strict",0),gis.setAttribute("data-reactions-enabled","1"),gis.setAttribute("data-emit-metadata","0"),gis.setAttribute("data-input-position","top"),gis.setAttribute("data-theme","transparent_dark"),gis.setAttribute("data-lang","en"),gis.setAttribute("data-loading","lazy"),gis.setAttribute("crossorigin","anonymous"),iframes=document.getElementsByTagName("iframe"),document.getElementById("comment-giscus").appendChild(gis)</script></article></main><footer class=footer><span>&copy; 2025 <a href=https://blog.bj-yan.top/>小冰爱吃盐</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span><br><span id=busuanzi_container_page_pv>本文总阅读量<span id=busuanzi_value_page_pv></span>次
+</span><span id=busuanzi_container_site_pv>本站总访问量<span id=busuanzi_value_site_pv></span>次
+</span><span id=busuanzi_container_site_uv>本站访客数<span id=busuanzi_value_site_uv></span>人次
+</span><script type=text/javascript id=mapmyvisitors src="//mapmyvisitors.com/map.js?d=Y4m14m4Jh2bS4Vyr_FP_8YF3q3_awg-YnkQxkAdOtIw&cl=ffffff&w=200"></script></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script async src=//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js></script><script>let menu=document.getElementById("menu");menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerText="copy";function s(){t.innerText="copied!",setTimeout(()=>{t.innerText="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

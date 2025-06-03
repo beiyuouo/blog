@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Thoughts on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/thoughts/</link>
+    <description>Recent content in Thoughts on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jun 2023 22:08:30 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我们总是被困在自己的认知中</title>
+      <link>https://blog.bj-yan.top/p/misc-wo-men-zong-bei-kun-zai-zi-ji-de-ren-zhi-zhong/</link>
+      <pubDate>Tue, 13 Jun 2023 22:08:30 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/misc-wo-men-zong-bei-kun-zai-zi-ji-de-ren-zhi-zhong/</guid>
+      <description>我们总是被困在自己的认知中</description>
+    </item>
+    
+    <item>
+      <title>Some Thoughts on Schedule Management Software</title>
+      <link>https://blog.bj-yan.top/p/blog-some-thoughts-on-schedule-management-software/</link>
+      <pubDate>Thu, 12 May 2022 01:01:20 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-some-thoughts-on-schedule-management-software/</guid>
+      <description>关于日程管理软件的一些思考, Some Thoughts on Schedule Management Software</description>
+    </item>
+    
+    <item>
+      <title>世界的本质是数学</title>
+      <link>https://blog.bj-yan.top/p/misc-20211013/</link>
+      <pubDate>Wed, 13 Oct 2021 19:43:15 +0000</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/misc-20211013/</guid>
+      <description>一些关于数学的想法</description>
+    </item>
+    
+  </channel>
+</rss>

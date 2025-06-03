@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Github on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/github/</link>
+    <description>Recent content in Github on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2023 17:05:24 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub 没啥用小技巧</title>
+      <link>https://blog.bj-yan.top/p/blog-github-useless-tips/</link>
+      <pubDate>Thu, 02 Mar 2023 17:05:24 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-github-useless-tips/</guid>
+      <description>GitHub Useless Tips, GitHub 没啥用小技巧</description>
+    </item>
+    
+    <item>
+      <title>GitHub Actions 进行简历编译与分发的最佳实践</title>
+      <link>https://blog.bj-yan.top/p/blog-github-actions-cv/</link>
+      <pubDate>Sat, 19 Feb 2022 18:12:54 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-github-actions-cv/</guid>
+      <description>GitHub Actions 进行简历编译与分发的最佳实践</description>
+    </item>
+    
+  </channel>
+</rss>

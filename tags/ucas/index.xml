@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ucas on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/ucas/</link>
+    <description>Recent content in Ucas on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Aug 2022 22:49:57 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/ucas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UCAS 课程表日程解决方案</title>
+      <link>https://blog.bj-yan.top/p/blog-ucas-course-schedule/</link>
+      <pubDate>Fri, 26 Aug 2022 22:49:57 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-ucas-course-schedule/</guid>
+      <description>Blog Ucas Course Schedule | UCAS 课程表日程解决方案</description>
+    </item>
+    
+    <item>
+      <title>UCAS 利用 IPv6 绕过校园网流量计费</title>
+      <link>https://blog.bj-yan.top/p/blog-ucas-ipv6-bypass/</link>
+      <pubDate>Sun, 21 Aug 2022 09:44:53 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-ucas-ipv6-bypass/</guid>
+      <description>UCAS 利用 IPv6 绕过校园网流量计费</description>
+    </item>
+    
+  </channel>
+</rss>

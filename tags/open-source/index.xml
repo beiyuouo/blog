@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Open-Source on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/open-source/</link>
+    <description>Recent content in Open-Source on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Sep 2022 13:44:15 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>浅谈国内开源社区环境</title>
+      <link>https://blog.bj-yan.top/p/blog-talk-about-the-open-source-environment-in-china/</link>
+      <pubDate>Sun, 11 Sep 2022 13:44:15 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-talk-about-the-open-source-environment-in-china/</guid>
+      <description>Blog Talk About the Open Source Environment in China</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pixel-Art on 小冰爱吃盐</title>
+    <link>https://blog.bj-yan.top/tags/pixel-art/</link>
+    <description>Recent content in Pixel-Art on 小冰爱吃盐</description>
+    <image>
+      <url>https://blog.bj-yan.top/favicon.jpg</url>
+      <link>https://blog.bj-yan.top/favicon.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Feb 2022 01:19:35 +0800</lastBuildDate><atom:link href="https://blog.bj-yan.top/tags/pixel-art/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bigverse 初体验</title>
+      <link>https://blog.bj-yan.top/p/misc-bigverse-first-experience/</link>
+      <pubDate>Tue, 15 Feb 2022 01:19:35 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/misc-bigverse-first-experience/</guid>
+      <description>Bigverse 初体验，画了个像素画</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning for Pixel Art</title>
+      <link>https://blog.bj-yan.top/p/blog-deep-learning-for-pixel-art/</link>
+      <pubDate>Tue, 15 Feb 2022 01:19:35 +0800</pubDate>
+      
+      <guid>https://blog.bj-yan.top/p/blog-deep-learning-for-pixel-art/</guid>
+      <description>Deep Learning for Pixel Art，用深度学习生成像素画</description>
+    </item>
+    
+  </channel>
+</rss>
